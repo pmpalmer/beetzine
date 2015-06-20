@@ -255,7 +255,7 @@ header li:hover a:after  {
     letter-spacing: 3px;
 }
 
-.preview__img {
+.preview-img {
     overflow: hidden;
 }
 
@@ -280,7 +280,7 @@ header li:hover a:after  {
     margin-bottom: 20px;
 }
 
-.submission__img {
+.submission-img {
     height: 350px;
     width: 100%;
     overflow: hidden;
@@ -302,7 +302,7 @@ header li:hover a:after  {
     text-transform: uppercase;
 }
 
-.submission__text p {
+.submission-text p {
     font-size: 2em;
 
 }
@@ -335,13 +335,13 @@ header li:hover a:after  {
     margin-bottom: 30px;
 }
 
-.featured__img {
+.featured-img {
     width: 100%;
     height: 150px;
     overflow: hidden;
 }
 
-.featured__text {
+.featured-text {
     width: 100%;
     height: 150px;
     font-size: 1.8em;
@@ -361,7 +361,7 @@ header li:hover a:after  {
 
 
 
-.content__tile {
+.content-title {
     width: 25%;
     padding-bottom: 32%;
     float: left;
@@ -380,7 +380,7 @@ header li:hover a:after  {
     background: #000;
 }
 
-.tile__img {
+.tile-img {
     width: 100%;
     height: 80%;
     background: url(../images/tile.JPG) center;
@@ -399,7 +399,7 @@ header li:hover a:after  {
     opacity: 0;
     transition: all .3s ease-in-out;
 }
-.tile__img a {
+.tile-img a {
     position: absolute;
     top: 0;
     right: 0;
@@ -408,7 +408,7 @@ header li:hover a:after  {
     color: #fff;
 }
 
-.tile__img span {
+.tile-img span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -421,7 +421,7 @@ header li:hover a:after  {
     font-weight: 100;
 }
 
-.tile__img span:before {
+.tile-img span:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -437,21 +437,21 @@ header li:hover a:after  {
 }
 
 
-.tile__img:hover .overlay {
+.tile-img:hover .overlay {
     opacity: .7;
 }
 
-.tile__img:hover  span {
+.tile-img:hover  span {
     visibility: visible;
 }
 
-.tile__img:hover span:before {
+.tile-img:hover span:before {
     visibility: visible;
     -webkit-transform: scaleX(.5);
     transform: scaleX(.5);
 }
 
-.tile__text {
+.tile-text {
     width: 100%;
     height: 20%;
     position: absolute;
@@ -470,21 +470,21 @@ header li:hover a:after  {
 
 }
 
-.tile__text p {
+.tile-text p {
     letter-spacing: .2em;
     text-transform: uppercase;
 }
 
-.tile__text .title {
+.tile-text .title {
     color: #db2c5e;
     margin: 0;
 }
 
-.tile__text .date {
+.tile-text .date {
     color: #ffe6d7;
 }
 
-.tile__text .title:after {
+.tile-text .title:after {
     content: "";
     position: absolute;
     width: 30%;
@@ -503,21 +503,21 @@ header li:hover a:after  {
     #ABOUT.html
 \*-------------------------*/
  
- .content__about {
+ .content-about {
     width: 70%;
     margin: 40px auto;  
     line-height: 1.8em;
     font-size: 1.8em;
  }
 
-.content__about p {
+.content-about p {
     margin-bottom: 50px;
 }
 
-.content__about p span {
+.content-about p span {
     color: rgb(219, 44, 94);
 }
-.content__about h3 {
+.content-about h3 {
     text-transform: uppercase;
     margin: 0;
 }
@@ -528,7 +528,7 @@ header li:hover a:after  {
     #SUBMIT.html
 \*-------------------------*/
 
-.content__submit {
+.content-submit {
     width: 70%;
     margin: 40px auto;  
     line-height: 1.8em;
@@ -569,7 +569,7 @@ textarea {
         z-index: 4;
     }
 
-    .content__tile {
+    .content-title {
         width: 33.3%;
         padding-bottom: 40%;
     }
@@ -678,7 +678,7 @@ textarea {
     #content .content-header h1 {
         display: none;
     }
-    .content__tile {
+    .content-title {
     }
 
 
@@ -687,7 +687,7 @@ textarea {
 
 @media screen and (max-width: 750px) {
 
-    .content__tile {
+    .content-title {
         width: 50%;
         padding-bottom: 60%;
     }
@@ -705,7 +705,7 @@ textarea {
 
 
 @media screen and (max-width: 520px) {
-    .content__tile {
+    .content-title {
         width: 100%;
         padding-bottom: 120%;
     }
