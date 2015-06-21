@@ -41,9 +41,12 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 body {
 	background: url(../images/background2.png);
+	margin: 0;
 }
 a {
 	color: #db2c5e;
