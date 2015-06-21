@@ -504,8 +504,6 @@ textarea {
 		width: 100% !important;
 	}
 	header {
-		background: transparent;
-		background: url("../images/marquee.png");
 		display: block;
 		height: 200px;
 		position: relative;
