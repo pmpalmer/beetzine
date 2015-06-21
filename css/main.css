@@ -29,10 +29,24 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'blanch_condensed_light';
+	font-family: 'Blanch';
+	src: url('../fonts/blanch-regular.eot');
+	src: url('../fonts/blanch-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/blanch-regular.woff') format('woff'),
+	     url('../fonts/blanch-regular.ttf') format('truetype'),
+	     url('../fonts/blanch-regular.svg#59fcbb7dfe5e200b693f0aaad77e1763') format('svg');
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/blanch_condensed_light.otf');
+}
+@font-face {
+	font-family: 'Blanch';
+	src: url('../fonts/blanch-bold.eot');
+	src: url('../fonts/blanch-bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/blanch-bold.woff') format('woff'),
+	     url('../fonts/blanch-bold.ttf')  format('truetype'),
+	     url('../fonts/blanch-bold.svg#c3f88d504bf871edbcffdf847147574c') format('svg');
+	font-style: normal;
+	font-weight: bold;
 }
 html,
 body {
@@ -155,7 +169,7 @@ header li:hover a:after {
 #content .content-header h1 {
 	color: #ffe6d7;
 	display: inline-block;
-	font-family: 'blanch_condensed_light';
+	font-family: 'Blanch';
 	font-weight: normal;
 	left: 100px;
 	line-height: .75em;
