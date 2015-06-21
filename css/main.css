@@ -6,7 +6,7 @@
  * 3.0 - Content
  * 4.0 - Footer
  * 5.0 - Home
- * 6.0 - Artwork
+ * 6.0 - Art
  * 7.0 - About
  * 8.0 - Contact
  * 9.0 - Responsive
@@ -281,7 +281,7 @@ header li:hover a:after {
 }
 
 /**
- * 6.0 - Artwork
+ * 6.0 - Art
  */
 .tile-container {
 	overflow: hidden;
