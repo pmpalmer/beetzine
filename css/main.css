@@ -19,14 +19,24 @@
 	box-sizing: border-box;
 }
 @font-face {
-	font-family: 'bitstream_vera_sans_monoroman';
-	src: url('../fonts/bitstreamverasansmono_roman_macroman/VeraMono-webfont.eot');
-	src: url('../fonts/bitstreamverasansmono_roman_macroman/VeraMono-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/bitstreamverasansmono_roman_macroman/VeraMono-webfont.woff') format('woff'),
-	     url('../fonts/bitstreamverasansmono_roman_macroman/VeraMono-webfont.ttf') format('truetype'),
-	     url('../fonts/bitstreamverasansmono_roman_macroman/VeraMono-webfont.svg#bitstream_vera_sans_monoroman') format('svg');
-	font-weight: normal;
+	font-family: 'Input';
+	src: url('../fonts/input-bold.eot');
+	src: url('../fonts/input-bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/input-bold.woff') format('woff'),
+	     url('../fonts/input-bold.ttf') format('truetype'),
+	     url('../fonts/input-bold.svg#8a9868ef88ca3c3538aa18acafcc1dd3') format('svg');
 	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Input';
+	src: url('../fonts/input-regular.eot');
+	src: url('../fonts/input-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/input-regular.woff') format('woff'),
+	     url('../fonts/input-regular.ttf') format('truetype'),
+	     url('../fonts/input-regular.svg#841331703feb203407d2b481eb322210') format('svg');
+	font-style: normal;
+	font-weight: normal;
 }
 @font-face {
 	font-family: 'Blanch';
@@ -50,7 +60,7 @@
 }
 html,
 body {
-	font-family: "bitstream_vera_sans_monoroman";
+	font-family: "Input", monospace;
 	font-size: 62.5%;
 	height: 100%;
 	margin: 0;
