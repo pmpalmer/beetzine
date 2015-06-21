@@ -103,6 +103,14 @@ header a {
 #logo {
 	margin: 40px 30px 30px 30px;
 }
+#logo-link {
+	background: url("../images/logo.png");
+	display: block;
+	height: 138px;
+	overflow: hidden;
+	text-indent: -999px;
+	width: 180px;
+}
 header nav {
 	height: 100%;
 }
@@ -505,16 +513,15 @@ textarea {
 	}
 	header {
 		display: block;
-		height: 200px;
+		height: auto;
 		position: relative;
 		width: 100%;
 	}
 	#logo {
 		margin: 0;
 	}
-	#logo img {
-		display: block;
-		margin: 0 auto;
+	#logo-link {
+		margin: 20px auto;
 	}
 	header nav {
 		display: inline-block;
@@ -589,6 +596,11 @@ textarea {
 	}
 }
 @media screen and (max-width: 700px) {
+	#logo-link {
+		background: url("../images/logo-mobile.png");
+		height: 50px;
+		width: 300px;
+	}
 	.recent-submissions {
 		padding: 20px;
 		width: 100%;
